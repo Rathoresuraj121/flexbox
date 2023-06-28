@@ -1,0 +1,100 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1665159693565-ef9ea8198cec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.box {
+  background-color: transparent;
+  border: 1px solid grey;
+  height: 500px;
+  width: 900px;
+  border-radius: 9px;
+  display: flex;
+  box-shadow: 2px 5px 5px grey;
+}
+
+.img-box {
+  border: 2px solid black;
+  width: 450px;
+  height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXJ8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+.login-box {
+  border: 2px solid black;
+  width: 450px;
+  height: 500px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  width: 450px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  margin: 5px;
+  padding: 5px;
+}
+
+.input-form-control {
+  padding: 10px;
+  height: 20px;
+  border-radius: 2px;
+  margin: 2px;
+}
+
+.label-text {
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer {
+  width: 200px;
+  height: 90px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  margin: 0px;
+  padding: 0px;
+  width: 290px;
+  height: 30px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+}
